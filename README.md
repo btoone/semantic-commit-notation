@@ -17,7 +17,22 @@ This project follows [Semantic Versioning](https://semver.org/).
 
 ## Tooling
 
-TBD
+
+You can include this repo's shared alias definitions in your own project so that
+everyone on your team can use the same `git lh` and `git heat` commands.
+
+- Copy this repo's tools into your own project
+- Include it into your repo's local git config
+
+```shell
+cp tools/git/scn-aliases.ini ../your-project/tools/git
+cd ../your-project
+git config --local include.path ../tools/git/scn-aliases.ini
+
+# Test new aliases
+git lh
+git heat
+```
 
 ## Commit Template
 
