@@ -12,8 +12,8 @@ making meaningful commits to a document-based project.
 This project follows [Semantic Versioning](https://semver.org/).
 
 - **MAJOR (v1.x.x)**: Fundamental changes to values or principles
-- **MINOR (v0.x.x)**: Adjustments or additions to meaning or structure
-- **PATCH (v0.10.x)**: Grammar, formatting, tooling, and consistency edits
+- **MINOR (v0.1.x)**: Adjustments or additions to meaning or structure
+- **PATCH (v0.x.1)**: Grammar, formatting, tooling, and consistency edits
 
 ## Tooling
 
