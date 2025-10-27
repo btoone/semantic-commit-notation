@@ -140,4 +140,5 @@ evolution.
 
 ## License
 
-Released under the [MIT License](LICENSE).
+© 2025 Brandon Toone.
+This specification is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
