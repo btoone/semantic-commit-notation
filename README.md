@@ -33,6 +33,8 @@ git lh
 git heat
 ```
 
+<img width="590" height="647" alt="Screenshot 2025-10-27 at 12 31 18 PM" src="https://github.com/user-attachments/assets/1974ee38-d647-4904-ad20-fc0d192cee60" />
+
 ## Commit Template
 
 Use this commit template in your project as an easy way to help make consistent
