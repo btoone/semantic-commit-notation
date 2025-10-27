@@ -4,6 +4,14 @@ See the [Versioning Policy](README.md#versioning-policy) for info new versions.
 
 ---
 
+## [v0.2.1] — 2025-10-27
+
+### Changed
+
+- Swapped MIT license for CC4 license
+
+---
+
 ## [v0.2.0] — 2025-10-27
 
 ### Added
