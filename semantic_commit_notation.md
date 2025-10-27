@@ -1,4 +1,5 @@
 # Semantic Commit Notation
+
 **Version:** v0.1.0
 
 ---

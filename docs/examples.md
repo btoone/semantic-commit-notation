@@ -1,6 +1,7 @@
 # Example Commit Messages by Symbol
 
 **Format**
+
 ```none
 <symbol> <scope>: <summary>
 ```
