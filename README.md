@@ -17,7 +17,6 @@ This project follows [Semantic Versioning](https://semver.org/).
 
 ## Tooling
 
-
 You can include this repo's shared alias definitions in your own project so that
 everyone on your team can use the same `git lh` and `git heat` commands.
 
