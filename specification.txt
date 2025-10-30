@@ -1,0 +1,160 @@
+1:"$Sreact.fragment"
+2:I[47040,["/semantic-commit-notation/_next/static/chunks/5d5e03acf2f3037a.js","/semantic-commit-notation/_next/static/chunks/1e109efa3fe1594f.js"],"default"]
+3:I[54225,["/semantic-commit-notation/_next/static/chunks/5d5e03acf2f3037a.js","/semantic-commit-notation/_next/static/chunks/1e109efa3fe1594f.js"],"default"]
+4:I[6432,["/semantic-commit-notation/_next/static/chunks/1b9167bd2b3f7ef1.js"],"Analytics"]
+6:I[69450,["/semantic-commit-notation/_next/static/chunks/5d5e03acf2f3037a.js","/semantic-commit-notation/_next/static/chunks/1e109efa3fe1594f.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+9:I[69450,["/semantic-commit-notation/_next/static/chunks/5d5e03acf2f3037a.js","/semantic-commit-notation/_next/static/chunks/1e109efa3fe1594f.js"],"ViewportBoundary"]
+b:I[69450,["/semantic-commit-notation/_next/static/chunks/5d5e03acf2f3037a.js","/semantic-commit-notation/_next/static/chunks/1e109efa3fe1594f.js"],"MetadataBoundary"]
+d:I[9007,["/semantic-commit-notation/_next/static/chunks/5d5e03acf2f3037a.js","/semantic-commit-notation/_next/static/chunks/1e109efa3fe1594f.js"],"default"]
+:HL["/semantic-commit-notation/_next/static/chunks/497296252ace83ef.css","style"]
+:HL["/semantic-commit-notation/_next/static/media/70bc3e132a0a741e-s.p.15008bfb.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"eWQacpZOAJ-OmHKPJHY7d","c":["","specification"],"q":"","i":false,"f":[[["",{"children":["specification",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/semantic-commit-notation/_next/static/chunks/497296252ace83ef.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/semantic-commit-notation/_next/static/chunks/1b9167bd2b3f7ef1.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"jetbrains_mono_b9666217-module__a-vryW__className font-mono antialiased","children":[["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L4",null,{}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",null,["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"s":false,"S":true}
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+c:[["$","title","0",{"children":"Semantic Commit Notation | SCN"}],["$","meta","1",{"name":"description","content":"A compact visual language for versioning meaning-level changes in text-based projects"}],["$","meta","2",{"name":"generator","content":"v0.app"}]]
+8:null
+e:T11fb,# Semantic Commit Notation
+
+**Version:** v0.2.1
+
+---
+
+## Purpose
+
+**Semantic Commit Notation (SCN)** defines a compact visual language for
+versioning **meaning-level changes**  in text-based projects such as;
+manifestos, specifications, charters, or any document whose content evolves
+through iteration.
+
+Where *Arlo’s Commit Notation* describes code changes by **behavioral risk**,
+**Semantic Commit Notation** classifies document changes by **editorial
+magnitude**, i.e. how much the meaning or structure of a text was transformed.
+
+---
+
+## Core Idea
+
+Each commit expresses a single **semantic event**, a meaningful, coherent change
+to the text.
+
+A commit answers three questions:
+
+1. **Magnitude** – How much meaning changed?
+2. **Scope** – Where did it happen?
+3. **Summary** – What changed and why?
+
+---
+
+## Symbol System
+
+| Symbol | Meaning| Magnitude  | Description | Typical Use |
+|:--:|:--|:--|:--|:--|
+| `.` | **Cosmetic** | Very Minor | Pure formatting or spacing adjustments | Fix punctuation, line breaks, or markdown |
+| `~` | **Refinement** | Minor | Adding clarity or tone improvement | Simplify sentences, improve phrasing |
+| `!` | **Revision** | Moderate | A rewrite or change in meaning | Reframe argument, rewrite paragraph |
+| `+` | **Expansion** | Major | An addition or structural reorganization | Add a new section or merge principles |
+| `^` | **Meta / Infrastructure** | Meta / Tooling | Non-editorial changes | Linting, automation, repository tools |
+| `*` | **Release** | Release | Coherent published version | Releasing latest changes publicly |
+
+---
+
+## Example Project History
+
+```gitcommit
+* v0.3.0 – Add glossary and update definitions
+^ release: add changelog automation
++ glossary: introduce key terms section
+! definitions: clarify "component" for consistency
+~ introduction: simplify first paragraph for readability
+. styleguide: fix heading capitalization
+^ lint: add markdown link checker
+* v0.2.0 – Rewrite ethics section for accuracy
+```
+
+This history shows the document maturing as meaning deepens, structure expands,
+and meta work quietly maintains the system.
+
+See more [symbol examples](docs/examples.md).
+
+---
+
+## Reading the History as a "Semantic Heatmap"
+
+The first symbol of each commit conveys the **magnitude of change**,
+turning your `git log` into a visual map of how the document’s meaning evolved.
+
+| Symbol | Meaning | Suggested Color |
+|:--:|:--|:--|
+| `+` | Major addition or restructure | 🔴 Red |
+| `!` | Moderate rewrite | 🟠 Orange |
+| `~` | Minor refinement | 🟡 Yellow |
+| `.` | Cosmetic / mechanical | 🟢 Green |
+| `^` | Meta / infra | 🔵 Cyan |
+| `*` | Release milestone | ⚪ White |
+
+Together, they reveal where meaning shifted, where it was refined, and where
+commits were purely mechanical or meta.
+
+---
+
+## Meta-Level Work (`^`)
+
+Meta commits support the project without changing its meaning. Only these
+scopes are valid for the meta symbol (`^`):
+
+| Scope | Description | Example |
+|:--|:--|:--|
+| `meta` | Repository maintenance or configuration | `^ meta: update contributor guide` |
+| `infra` | Build or CI environment changes | `^ infra: adjust Makefile targets` |
+| `lint` | Validation or rule updates | `^ lint: improve markdown validator` |
+| `release` | Automation related to version bumping | `^ release: improve changelog generator` |
+
+---
+
+## Releases (`*`)
+
+A `*` commit marks a **coherent, publishable semantic state**. It has no scope
+or intent — only a version and short descriptor.
+
+**Examples**
+
+```gitcommit
+v0.12.0 – Refine Adoption clarity and update FAQ
+v0.11.3 – Clarify Evaluation and restructure README
+v0.10.1 – Initial version
+```
+
+Each release acts as a **chapter heading** in the document’s history. A
+reproducible point of meaning.
+
+---
+
+## Lineage and Attribution
+
+**Arlo’s Commit Notation** introduced the concept of describing *code* changes
+by *behavioral risk* instead of file lists or conventional verbs.
+
+**Semantic Commit Notation** extends that spirit to *textual meaning*, capturing
+*editorial magnitude* rather than behavioral change.
+
+*Inspired by [Arlo Belshee’s Commit Notation](https://github.com/RefactoringCombos/ArlosCommitNotation).*
+
+---
+
+## Tooling
+
+Install the helper scripts from `/tools`:
+
+- `git scn` — shows a symbol-first, colorized commit log
+- `git heat` — groups commits by magnitude into a semantic heatmap
+
+These scripts make history instantly scannable for patterns of meaning
+evolution.
+
+---
+
+## License
+
+© 2025 Brandon Toone.
+This specification is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+5:["$","main",null,{"className":"min-h-screen bg-background","children":["$","section",null,{"className":"border-b-2 border-primary/20","children":["$","div",null,{"className":"container mx-auto px-4 py-16 md:py-24","children":[["$","h1",null,{"className":"mb-6 text-4xl font-semibold text-primary md:text-5xl","children":"Semantic Commit Specification"}],["$","article",null,{"className":"whitespace-pre-wrap break-words text-lg leading-relaxed text-foreground/80","children":"$e"}]]}]}]}]
