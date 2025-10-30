@@ -1,7 +1,8 @@
 1:"$Sreact.fragment"
-4:I[69450,["/semantic-commit-notation/_next/static/chunks/5d5e03acf2f3037a.js","/semantic-commit-notation/_next/static/chunks/1e109efa3fe1594f.js"],"OutletBoundary"]
-5:"$Sreact.suspense"
-2:T11fb,# Semantic Commit Notation
+2:I[99092,["/semantic-commit-notation/_next/static/chunks/1b9167bd2b3f7ef1.js","/semantic-commit-notation/_next/static/chunks/a46ae38ee7ab2dd2.js"],""]
+6:I[69450,["/semantic-commit-notation/_next/static/chunks/5d5e03acf2f3037a.js","/semantic-commit-notation/_next/static/chunks/1e109efa3fe1594f.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T11fb,# Semantic Commit Notation
 
 **Version:** v0.2.1
 
@@ -145,6 +146,7 @@ evolution.
 
 © 2025 Brandon Toone.
 This specification is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
-0:{"buildId":"eWQacpZOAJ-OmHKPJHY7d","rsc":["$","$1","c",{"children":[["$","main",null,{"className":"min-h-screen bg-background","children":["$","section",null,{"className":"border-b-2 border-primary/20","children":["$","div",null,{"className":"container mx-auto px-4 py-16 md:py-24","children":[["$","h1",null,{"className":"mb-6 text-4xl font-semibold text-primary md:text-5xl","children":"Semantic Commit Specification"}],["$","article",null,{"className":"whitespace-pre-wrap break-words text-lg leading-relaxed text-foreground/80","children":"$2"}]]}]}]}],null,"$L3"]}],"loading":null,"isPartial":false}
-3:["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]
-6:null
+0:{"buildId":"AJW_ypOkUVKC_roBs88eZ","rsc":["$","$1","c",{"children":[["$","main",null,{"className":"min-h-screen bg-background","children":["$","section",null,{"className":"border-b-2 border-primary/20","children":["$","div",null,{"className":"container mx-auto px-4 py-16 md:py-24","children":[["$","div",null,{"className":"mb-6","children":["$","$L2",null,{"href":"/","className":"text-sm font-medium text-primary hover:underline","children":"← Back to overview"}]}],["$","h1",null,{"className":"mb-6 text-4xl font-semibold text-primary md:text-5xl","children":"Semantic Commit Specification"}],["$","article",null,{"className":"whitespace-pre-wrap break-words text-lg leading-relaxed text-foreground/80","children":"$3"}]]}]}]}],["$L4"],"$L5"]}],"loading":null,"isPartial":false}
+4:["$","script","script-0",{"src":"/semantic-commit-notation/_next/static/chunks/a46ae38ee7ab2dd2.js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null
